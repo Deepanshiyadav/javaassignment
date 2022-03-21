@@ -1,4 +1,4 @@
-package com.divergent.corejava.io;
+package javaAssignmentAssignment6;
 
 public class pattern {
 	public static void main(String[] args) {
@@ -20,3 +20,5 @@ public class pattern {
 	}
 
 }
+
+
