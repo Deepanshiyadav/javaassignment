@@ -1,0 +1,43 @@
+ques.1 what is inheritance ?explain with exaples.
+ans.  Inheritance in java is a method in which one object acquires all the properties and behaviour of parent object.
+For example, a child inherits the traits of his/her parents.
+
+ques. 2. why we need to use inheritance ?
+ans. i.) for code reuseability.
+     ii.) for method overriding.
+
+ques.3  what is the keyword used to achieve inheritance in java?
+ans.    'extends' keyword is use to achieve inheritance in java.
+
+ques. 4. what is the use of "superkeyword"?
+ans. The 'supper' keyword is used to refer immediate parentclass (superclass) objects.
+
+ques.5 How can a sub-class call a constructor of the super class?
+ans.  To explicitly call the superclass constructor from the subclass constructor, we use super()  keyword.
+
+ques.6 . What is method overriding?
+ans. If sub class has the same method as declared in parent class is known as method overriding. 
+    -->  The method must have same name as in the parent class.
+    -->  The method must have the same parameter as in parent class.
+    -->  There must be a Is-A (parent-child) Relationship.
+
+ques.7. Is multiple inheritance supported in Java?
+ans.    Multiple Inheritance is not supported by java using classes.
+
+ques.8. What is “Dynamic Binding”?
+ans.   Dynamic Binding is a process in which a call to an overridden method is resolved at run time rather than compile time.
+       It is also called polymorphism, dynamic method dispatch, upcasting, late Binding. 
+
+
+ques.9. What is “Overloading resolution”, how it is done?
+ans. 
+
+ques.10. Which keyword is used to prevent inheritance?
+ans. Use 'final' keyword when creating the class.
+
+ques.11. Can a final method be overridden?
+ans.  No, we cannot override a  final method. 
+
+ques.12. What are abstract classes, why are they used?
+ans.  A class which is declared with the help of abstrct keyword is called abstract class. It has abstract and non-abstract methods.
+

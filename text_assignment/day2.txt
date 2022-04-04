@@ -1,0 +1,51 @@
+Day 2 Assignment.
+
+1.Why do languages have data types?
+ans. A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data.Java is a statically-typed programming language. It means, all variables must be declared before its use. That is why we need to declare variable's type and name.
+
+
+2. What are the broad 2 categories of data types in Java?
+ans. Java has two categories of data:
+Primitive Data Type: such as boolean, char, int, short, byte, long, float, and double.
+Non-Primitive Data Type or Object Data type: such as String, Array, etc.
+
+3. What are 4 classification of data types in Java under Primitives?
+ans. Boolean Data Type:- The Boolean data type is used to store only two possible values: true and false. This data type is used for simple flags that track true/false conditions. The Boolean data type specifies one bit of information, but its "size" can't be defined precisely
+
+Int Data Type:- The int data type is a 32-bit signed two's complement integer. Its value-range lies between - 2,147,483,648 (-2^31) to 2,147,483,647 (2^31 -1) (inclusive). Its minimum value is - 2,147,483,648and maximum value is 2,147,483,647. Its default value is 0.
+The int data type is generally used as a default data type for integral values unless if there is no problem about memory.
+
+Float Data Type:- The float data type is a single-precision 32-bit IEEE 754 floating point.Its value range is unlimited. It is recommended to use a float (instead of double) if you need to save memory in large arrays of floating point numbers. The float data type should never be used for precise values, such as currency. Its default value is 0.0F.
+
+Double Data Type:- The double data type is a double-precision 64-bit IEEE 754 floating point. Its value range is unlimited. The double data type is generally used for decimal values just like float. The double data type also should never be used for precise values, such as currency. Its default value is 0.0d.
+
+Char Data Type:- The char data type is a single 16-bit Unicode character. Its value-range lies between '\u0000' (or 0) to '\uffff' (or 65,535 inclusive).The char data type is used to store characters. 
+
+4. Why do we say that Java is a strongly typed language?
+ans. Java is a strongly typed language. This means that every variable must have a declared type.
+
+5. What sub-categories of Integer data types also mention the size?
+ans. Byte Data Type:- The byte data type is an example of primitive data type. It is an 8-bit signed two's complement integer. Its value-range lies between -128 to 127 (inclusive). Its minimum value is -128 and maximum value is 127. Its default value is 0. 
+It saves space because a byte is 4 times smaller than an integer. It can also be used in place of "int" data type. 
+
+Short Data Type:- The short data type is a 16-bit signed two's complement integer. Its value-range lies between -32,768 to 32,767 (inclusive). Its minimum value is -32,768 and maximum value is 32,767. Its default value is 0.A short data type is 2 times smaller than an integer. 
+
+Int Data Type:- The int data type is a 32-bit signed two's complement integer. Its value-range lies between - 2,147,483,648 (-2^31) to 2,147,483,647 (2^31 -1) (inclusive). Its minimum value is - 2,147,483,648and maximum value is 2,147,483,647. Its default value is 0.
+The int data type is generally used as a default data type for integral values unless if there is no problem about memory.
+
+Long Data Type:- The long data type is a 64-bit two's complement integer. Its value-range lies between -9,223,372,036,854,775,808(-2^63) to 9,223,372,036,854,775,807(2^63 -1)(inclusive). Its minimum value is - 9,223,372,036,854,775,808and maximum value is 9,223,372,036,854,775,807. Its default value is 0. The long data type is used when you need a range of values more than those provided by int.
+
+
+6.Why are rounding errors caused in Floating arithmetic which makes it unsuitable for financial and mission critical applications.Which class can be used to avoid the errors?
+ans. Such roundoff errors are caused by the fact that floating-point numbers are represented in the binary number system. There is no precise binary representation of the fraction 1/10, just as there is no accurate representation of the fraction 1/3 in the decimal system.
+If you need precise numerical computations without roundoff errors, use the BigDecimal class.
+
+
+7. What two problems Unicode solves?
+ans.Problems before Unicode was invented
+--> First, a particular code value corresponds to different letters in the different encoding schemes.
+--> Second, the encodings for languages with large character sets have variable length: Some common characters are encoded as single bytes, others require two or more bytes.
+
+In the 1980s, a fixed 2-byte code was more than sufficient to encode all characters used in all languages in the world, with room to spare for
+future expansion.
+In 1991, Unicode 1.0 was released, using slightly less than half of the available 65,536 code values.

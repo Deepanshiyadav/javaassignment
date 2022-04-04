@@ -1,0 +1,70 @@
+que. 1. What is the difference between Procedural and Object oriented programming?
+ans. procedural programming consists of designing a set of procedures (or algorithms) to solve a problem.
+Algorithms come first and then data structure.
+While the object oriented programming puts the data first then look at the algorithms to operate on the data.
+
+ques.2 What were the problems with Procedural programming?
+ans. The problem with procedural programming is the inability to resuse the code throughout the programming.
+
+ques.3.  Define class
+ans. A class is the Template or blueprint from which objects are made. A class is a logical entity, with no physical existence in memory.
+
+ques. 4. Define object
+ans. Object is an instance of a class which has state and behaviour.An object is physical entity, with physical existence in the memory.
+
+ques.5. What is the difference between the class and object and give a real world example of each.
+ans. A class is a collection of methods ,  functions , constructors etc. while the object is instance of the class.
+
+ques.6.  Out of class and object which has physical existence and which is logical entity?
+ans.  A class has logical existence while the object has physical existance in the memory.
+
+ques. 7. What do you mean by “state”, “behavior” and “identity” with respect of Object?
+ans. state - state represents the data of an object.
+     behaviour - behaviour represents the behaviour of an object such as deposit, withdraw etc.
+     identity -  it is used internally by the JVM to identify each object uniquely.
+
+ques. 8. What are “class members” in terms of class?
+ans. Collectively, the methods and variables defined within a class are called members of the class.
+
+ques.9. What is a constructor?
+ans. it is a special type of method which is used to initialize the object. It  is called when an instance of the class(object) is created.
+
+ques.10. What is the return type of constructor?
+ans. Constructor has no return type.
+
+ques.11. What is a parameterized constructor?
+ans. parameterized constructor is used to provide different values to the distinct object.
+
+ques.12. What is a default no argument constructor?
+ans. Default counstructor is used to provide  the default value to object like 0, null. depending on the datatype.
+    --> constructor call a default constructor if there is no constructor available in the class.
+
+ques.13. Is it true that a class gets no-argument constructor by default only when there is no other parameterized constructor defined?
+ans. yes, constructor call a default constructor if there is no constructor available in the class.
+
+ques.14. What is the meaning of “null”, what happens when a reference variable points to “null”, i.e Employee employee = null.
+ans. when the reference variable points to null it simply means that there is no value associated with it. 
+
+ques.15. What is a method, what is the return type and parameters of a method? Take examples from the Employee class
+ans. A method is block of code which only runs when it is called. you can pass data, known as parameters, into a method. Method are used tol perform certain actions, and they are also known as functions. 
+
+ques.16. What do we mean by “void” return type. 
+ans. void has no return type. 
+
+ques.17. What is “this” keyword used for?
+ans. this keyword refers to the current object in a method or constructor. It is used to eliminate the confusion between class attributes and parameters with the same name. iIt helps to distinguish between local variable and variables passes in the method as parameters.
+
+ques.18.What are different access modifiers that can be applied to fields and methods of a class? Describe all the access modifiers.
+ans. private -- external classes cannot access the member.
+     protected -- the access level of a protected modifier is within the package and outside the package through chid class, if you do not make the child class public, it cannot be accessed from outside the package.
+     public --  all classes in the application can access the member. 
+     no modifier --  all classes within the package can access this member.
+
+ques.19. What is the purpose of private methods?
+ans. Private methods are the methods having private access modifier and are restricted to be access in the defining class only and are not visible in their child class due to which are not eligible for overridden. 
+
+ques.20. Which access modifier would you use to protect your fields/data?
+ans.      protected access modifier is used to protect fields/data.
+
+26. How do you identify classes and methods for a particular requirement? Take an example of a Banking System and identify all the classes that would be needed to build the system. 
+ans. A simple rule of thumb in identifying classes is to look for nouns in the problem  analysis. Methods, on the other hand, correspond to verbs.

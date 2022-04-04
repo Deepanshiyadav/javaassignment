@@ -1,0 +1,31 @@
+Day-9 Assignament
+
+ClassesandObjects-III
+
+que. 1.What are the three types of variables in Java?
+Ans. There are three types of variables in java:
+    • local variable 
+    • instance variable 
+    • static variable 
+1) Local Variable
+    i. A variable declared inside the body of the method is called local variable. 
+    ii. You can use this variable only within that method 
+    iii. And The other methods in the class aren't even aware that the variable exists. 
+    iv. A local variable cannot be defined with "static" keyword.
+2) Instance Variable
+    i. A variable declared inside the class but outside the body of the method, is called an instance variable. 
+    ii. It is called an instance variable because its value is instance-specific and is not shared among instances.
+3) Static variable
+    i. A variable that is declared as static is called a static variable.
+    ii.  Memory allocation for static variables happens only once when the class is loaded in the memory.
+
+
+que. 2.How many copies of a static variable are kept in the JVM.
+Ans. Only one copy of a static member exists, regardless of how many instances of the class are created.
+
+que. 3.What is the other name given to static variables? 
+Ans. Class variables also known as static variables are declared with the static keyword in a class, but outside a method, constructor or a    block.
+
+que. 4.Can we change the value of static variables in the instance methods of the class?
+Ans. Static methods cannot access or change the values of instance variables or the this reference.
+ 

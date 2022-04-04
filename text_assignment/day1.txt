@@ -1,0 +1,73 @@
+Day 1 Assignment
+
+que. 1.What do we mean when we say Java is architecture neutral?
+ans. The compiled code is executable on many processors, given the presence of the Java runtime system.
+
+que.2.What do we mean when we say Java is portable?
+ans. The sizes of the primitive data types are fixed. Because of this the arithmetic operations give same result. 
+For example, an int in Java is always a 32-bit integer.
+
+que.3. What is a LTS release?
+ans.  LTS stands for long term support. Here, support means that throughout the lifetime of a release there is a commitment to update, patch and maintain the software.
+For an LTS, there is a shorter development cycle, where engineers and contributors add to the body of the release.
+
+que.4. What is the current version of Java?
+ans. The latest version of Java is Java 18 or JDK 18 released on March, 22nd 2022. 
+JDK 18 is a regular update release, and JDK 17 is the latest Long Term Support (LTS) release of Java SE platform (about 8 years of support from Oracle).
+
+que.6.What is a Java compiler and what is its function?
+ans. Java Compiler compiles the Java source code (.java file) into a binary format known as bytecode (.class file).
+Java compiler is responsible for the following tasks that are as follows: 
+a) Java compiler checks the syntaxial error (Syntax error). 
+b) It converts source code into byte code with the help of Java Virtual Machine (JVM). 
+c) It also adds the additional code to your program if required.
+
+
+que.7. What are the main two components of JVM and what are their functions?
+ans. Bytecode is translated by the Operating System specific Java Virtual Machine (JVM) into the platform specific machine code.
+○ Class loader in JVM loads the binary representation of the classes into memory(RAM).
+○ Execution engine in JVM executes the byte code and generates Operating System specific machine instructions. 
+  These machine instructions are executed directly by the central processing unit (CPU).
+
+
+que.8. What is the difference between JVM, JRE and JDK?
+ans.  JDK:-  JDK (Java Development Kit) is a software development kit to develop applications in Java. 
+In addition to JRE, JDK also contains number of development tools (compilers, JavaDoc, Java Debugger etc.).
+JDK is primarily used for code execution and has prime functionality of development.
+JDK is platform dependent i.e for different platforms different JDK required.
+As JDK is responsible for prime development so it contains tools for developing, debugging and monitoring java application.
+Implementation: JDK = Java Runtime Environment (JRE) + Development tools.
+
+JRE:- JRE (Java Runtime Environment) is the implementation of JVM and is defined as a software package that provides Java class libraries, along with Java Virtual Machine (JVM), and other components to run applications written in Java programming.
+JRE is majorly responsible for creating environment for code execution.
+Like of JDK JRE is also platform dependent.
+JRE does not contain tools such as compiler or debugger etc. Rather it contains class libraries and other supporting files that JVM requires to run the program.
+Implementation: JRE = Java Virtual Machine (JVM) + Libraries to run the application
+
+JVM:- JVM (Java Virtual Machine) is an abstract machine that is platform-dependent and has three notions as a specification, a document that describes requirement of JVM implementation, implementation, a computer program that meets JVM requirements, and instance, an implementation that executes Java byte code provides a runtime environment for executing Java byte code.JVM specifies all the implementations and responsible to provide these implementations to JRE. JVM is platform independent. JVM does not include software development tools.
+Implementation: JVM = Only Runtime environment for executing the Java byte code.
+
+
+que.9. . What are Java doc comments?
+ans. In general, Javadoc comments are any multi-line comments (" /** ... */ ") that are placed before class, field, or method declarations. They must begin with a slash and two stars, and they can include special tags to describe characteristics like method parameters or return values. Documentation comments are usually used to write large programs for a project or software application as it helps to create documentation API. These APIs are needed for reference, i.e., which classes, methods, arguments, etc., are used in the code.
+To create documentation API, we need to use the javadoc tool. The documentation comments are placed between /** and */.
+
+
+que.10. . What are code comments?
+ans. 1) Java Single Line Comment:- The single-line comment is used to comment only one line of the code. It is the widely used and easiest way of commenting the statements. Single line comments starts with two forward slashes (//). Any text in front of // is not executed by Java.
+
+2) Java Multi Line Comment:- The multi-line comment is used to comment multiple lines of code. It can be used to explain a complex code snippet or to comment multiple lines of code at a time (as it will be difficult to use single-line comments there). Multi-line comments are placed between /* and */. Any text between /* and */ is not executed by Java.
+
+que.11. What is the difference between Method Parameter and Method Arguments?
+ans. Parameters:- A parameter is a variable used to define a particular value during a function definition. Whenever we define a function we introduce our compiler with some variables that are being used in the running of that function. These variables are often termed as Parameters. The parameters and arguments mostly have the same value but theoretically, are different from each other.
+
+Argument:- An argument is a value passed to a function when the function is called. Whenever any function is called during the execution of the program there are some values passed with the function. These values are called arguments. An argument when passed with a function replaces with those variables which were used during the function definition and the function is then executed with these values.
+
+que.12. What is a just in time(JIT) compiler and how does it work?
+ans. The Just-In-Time (JIT) compiler is a an essential part of the JRE i.e. Java Runtime Environment, that is responsible for performance optimization of java based applications at run time. Way of converting bytecode to native machine language for execution has a huge impact on the speed of it. These Bytecode have to be interpreted or compiled to proper machine instructions depending on the instruction set architecture. Interpreting the bytecode affects the speed of execution.
+In order to improve performance, JIT compilers interact with the Java Virtual Machine (JVM) at run time and compile suitable bytecode sequences into native machine code.
+While using a JIT compiler, the hardware is able to execute the native code, as compared to having the JVM interpret the same sequence of bytecode repeatedly and incurring an overhead for the translation process.
+
+
+
+
