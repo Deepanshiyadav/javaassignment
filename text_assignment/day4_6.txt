@@ -1,0 +1,23 @@
+Day-4
+
+1. What all data types are allowed in the expression of the switch statement?
+ans:For versions of Java prior to JDK 7, expression must resolve to type byte, short, int, char, or an enumeration.
+Beginning with JDK 7, expression can also be of type String.
+
+
+2. Why does the switch statement have better performance over the “if” statement?
+ans: A switch statement is usually more efficient than a set of nested ifs. 
+When it compiles a switch statement, the Java compiler will inspect each of the case constants and create a “jump table” 
+that it will use for selecting the path of execution depending on the value of the expression.
+
+
+
+day6.
+
+que. What are the different conversion characters available?
+ans: Conversion Characters are- 
+ 	s - formats strings. 
+	d - formats decimal integers. 
+	f - formats floating-point numbers.
+	t - formats date/time values. 
+	b - for boolean
