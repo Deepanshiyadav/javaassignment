@@ -1,0 +1,19 @@
+Day 8
+
+Ques 1. What is encapsulation?
+Ans: Encapsulation is defined as the wrapping up of data under a single unit. It is the mechanism that binds together code and the data it manipulates.
+This concept is also often used to hide the internal representation, or state of an object from the outside. This is called information hiding.
+
+Ques 2. What are various types of class relationships, explain with example.
+Ans : There are three most common relationships among classes in Java that are as follows:
+
+a. Dependence (“Uses-A”): When we create an object of a class inside a method of another class, this relationship is called dependence relationship.
+b. Association (“Has-A”): When an object of one class is created as data member inside another class, it is called association relationship in java.
+c. Inheritance (“Is-A”): Is-A relationship defines the relationship between two classes in which one class extends another class.
+
+
+Ques 3. What are mutator methods and what are accessor methods. 
+Ans: A Mutator method is a setPriority( ) method, on the other hand the accessor method is the getPriority method. 
+This method is present in both setter and getter in the Thread class in java. lang package.
+One method to get the value of the private data item -> Getter or Accessor or Get method.
+One method to set the value of the private data item -> Setter or Mutator or  Set method.
